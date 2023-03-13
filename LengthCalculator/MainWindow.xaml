@@ -1,0 +1,27 @@
+﻿<Window x:Class="LengthCalculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LengthCalculator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="公分" HorizontalAlignment="Left" Margin="171,98,0,0" VerticalAlignment="Top"/>
+        <Label Content="公尺" HorizontalAlignment="Left" Margin="343,90,0,0" VerticalAlignment="Top"/>
+        <Label Content="英吋" HorizontalAlignment="Left" Margin="171,182,0,0" VerticalAlignment="Top"/>
+        <Label Content="英呎" HorizontalAlignment="Left" Margin="343,182,0,0" VerticalAlignment="Top"/>
+        <Label Content="碼" HorizontalAlignment="Left" Margin="538,191,0,0" VerticalAlignment="Top"/>
+        <Label Content="公里" HorizontalAlignment="Left" Margin="538,90,0,0" VerticalAlignment="Top"/>
+        <Label Content="說明文字" HorizontalAlignment="Left" Margin="171,283,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="171,143,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="343,143,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="538,143,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="171,231,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.507,5.259"/>
+        <TextBox HorizontalAlignment="Left" Margin="343,231,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="538,231,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="171,335,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="487"/>
+        <Button Content="清除" HorizontalAlignment="Left" Margin="171,53,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
