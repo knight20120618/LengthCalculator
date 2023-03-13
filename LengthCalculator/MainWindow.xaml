@@ -7,21 +7,21 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Label Content="公分" HorizontalAlignment="Left" Margin="185,116,0,0" VerticalAlignment="Top"/>
-        <Label Content="公尺" HorizontalAlignment="Left" Margin="369,115,0,0" VerticalAlignment="Top"/>
-        <Label Content="英吋" HorizontalAlignment="Left" Margin="185,0,0,0" VerticalAlignment="Center"/>
-        <Label Content="英呎" HorizontalAlignment="Left" Margin="369,201,0,0" VerticalAlignment="Top"/>
-        <Label Content="碼" HorizontalAlignment="Left" Margin="552,210,0,0" VerticalAlignment="Top"/>
-        <Label Content="公里" HorizontalAlignment="Left" Margin="552,115,0,0" VerticalAlignment="Top"/>
-        <Label Content="說明文字" HorizontalAlignment="Left" Margin="185,287,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtCM" HorizontalAlignment="Left" Margin="185,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtM" HorizontalAlignment="Left" Margin="369,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtKM" HorizontalAlignment="Left" Margin="552,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtIn" HorizontalAlignment="Left" Margin="185,250,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.507,5.259"/>
-        <TextBox x:Name="txtFt" HorizontalAlignment="Left" Margin="369,250,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtYard" HorizontalAlignment="Left" Margin="552,250,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtInfo" HorizontalAlignment="Left" Margin="185,329,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="487"/>
-        <Button x:Name="btnAllClear" Content="清除" HorizontalAlignment="Left" Margin="185,57,0,0" VerticalAlignment="Top"/>
+        <Label Content="公分" HorizontalAlignment="Left" Margin="160,121,0,0" VerticalAlignment="Top"/>
+        <Label Content="公尺" HorizontalAlignment="Left" Margin="321,116,0,0" VerticalAlignment="Top"/>
+        <Label Content="英吋" HorizontalAlignment="Left" Margin="160,197,0,0" VerticalAlignment="Top"/>
+        <Label Content="英呎" HorizontalAlignment="Left" Margin="321,200,0,0" VerticalAlignment="Top"/>
+        <Label Content="碼" HorizontalAlignment="Left" Margin="481,197,0,0" VerticalAlignment="Top"/>
+        <Label Content="公里" HorizontalAlignment="Left" Margin="481,116,0,0" VerticalAlignment="Top"/>
+        <Label Content="說明文字" HorizontalAlignment="Left" Margin="162,278,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtCM" HorizontalAlignment="Left" Margin="160,146,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtM" HorizontalAlignment="Left" Margin="321,146,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtKM" HorizontalAlignment="Left" Margin="481,146,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtIn" HorizontalAlignment="Left" Margin="160,227,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.507,5.259"/>
+        <TextBox x:Name="txtFt" HorizontalAlignment="Left" Margin="321,225,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtYard" HorizontalAlignment="Left" Margin="481,227,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtInfo" HorizontalAlignment="Left" Margin="160,303,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="441"/>
+        <Button x:Name="btnAllClear" Content="清除" HorizontalAlignment="Left" Margin="160,65,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
