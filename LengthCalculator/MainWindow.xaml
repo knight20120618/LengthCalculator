@@ -15,11 +15,11 @@
         <Label Content="公里" HorizontalAlignment="Left" Margin="481,116,0,0" VerticalAlignment="Top"/>
         <Label Content="說明文字" HorizontalAlignment="Left" Margin="162,278,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="txtCM" HorizontalAlignment="Left" Margin="160,146,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtM" HorizontalAlignment="Left" Margin="321,146,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtKM" HorizontalAlignment="Left" Margin="481,146,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtIn" HorizontalAlignment="Left" Margin="160,227,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.507,5.259"/>
-        <TextBox x:Name="txtFt" HorizontalAlignment="Left" Margin="321,225,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtYard" HorizontalAlignment="Left" Margin="481,227,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtM" HorizontalAlignment="Left" Margin="321,146,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" KeyUp="txtM_KeyUp"/>
+        <TextBox x:Name="txtKM" HorizontalAlignment="Left" Margin="481,146,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" KeyUp="txtKM_KeyUp"/>
+        <TextBox x:Name="txtIn" HorizontalAlignment="Left" Margin="160,227,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.507,5.259" KeyUp="txtIn_KeyUp"/>
+        <TextBox x:Name="txtFt" HorizontalAlignment="Left" Margin="321,225,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" KeyUp="txtFt_KeyUp"/>
+        <TextBox x:Name="txtYard" HorizontalAlignment="Left" Margin="481,227,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" KeyUp="txtYard_KeyUp"/>
         <TextBox x:Name="txtInfo" HorizontalAlignment="Left" Margin="160,303,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="441"/>
         <Button x:Name="btnAllClear" Content="清除" HorizontalAlignment="Left" Margin="160,65,0,0" VerticalAlignment="Top"/>
 
